@@ -1,0 +1,27 @@
+.form-div{
+background-color: aqua;
+display:inline-block;
+width: 300px;
+height: 200px;
+margin-left: 550px;
+text-align: center;
+border-radius: 20px;
+font-size: large;
+}
+.header{
+ 
+   background-color: rgba(90, 18, 206, 0.849);
+   text-align: center;
+ 
+}
+.body1{
+   background-image: url('sa.webp');
+}
+.body2{
+   background-image: url('me.webp');
+}
+.form-div2 {
+   background-color: black;
+   
+}
+
