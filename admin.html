@@ -14,18 +14,26 @@
     </form>
     <p>inserting option</p>
     <form action="i.php" method="post">
-car name<input type="text"name="b">
-car model<input type="text" name="c">
-car color<input type="text" name="d">
+car name<input type="text"name="b" required>
+car model<input type="text" name="c"required>
+car color<input type="text" name="d"required>
+car price <input type="text" name = "e"required>
 <input type="submit" value="insert">
     </form>
     <p>updating option</p>
  <form action="u.php" method="post">
-    car name<input type="text" name="e">
-    car model<input type="text"name="f">
-    car color<input type="text"name="g">
+    car name<input type="text" name="f">
+    car model<input type="text"name="g">
+    car color<input type="text"name="h">
+    car price <input type="text" name = "i">
+
     <input type="submit" value="update">
  </form>
-   
+<form action="s.php" method="post">
+<br><br>
+<input type="submit" value="show all cars">
+
+</form>
+
 </body>
 </html>
